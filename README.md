@@ -1,3 +1,3 @@
 # cursoJs
 
-Porcentaje: 71.8 %
+Porcentaje: 74.3 %
