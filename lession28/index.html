@@ -13,8 +13,9 @@
     <p id="parrafo">Parrafo manipulacion del DOM</p>
 
     <script>
-        let cabecera = document.getElementById("cabecera").innerHTML;
-        console.log(cabecera);
+        let cabecera = document.getElementById("cabecera");
+        cabecera.innerHTML = "Nuevo valor con JS";
+        console.log(cabecera.innerHTML);
 
         let parrafo = document.getElementById("parrafo").innerHTML;
         console.log(parrafo);
