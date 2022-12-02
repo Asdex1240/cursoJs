@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con Js</title>
+</head>
+<body>
+    
+    <p id="parrafo">Parrafo manipulacion del DOM 1 </p>
+    <p id="parrafo">Parrafo manipulacion del DOM 2 </p>
+    <p id="parrafo">Parrafo manipulacion del DOM 3 </p>
+    <script>
+        let parrafos = document.getElementsByTagName('p');
+        console.log(parrafos.length);
+
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(parrafos[i].innerHTML);
+        }
+
+
+    </script>
+</body>
+</html>
