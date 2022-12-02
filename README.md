@@ -1,3 +1,3 @@
 # cursoJs
 
-Porcentaje: 74.3 %
+Porcentaje: 62/78 sesiones
