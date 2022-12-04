@@ -9,17 +9,12 @@
 <body>
     <input type="text" id="nombre">
     <script>
-        document.getElementById("nombre").addEventListener("focus", cambiar);
-        document.getElementById("nombre").addEventListener("blur", regresar);
-        function cambiar(evento){
-            let componenete = evento.target;
-            componenete.style.background = "yellow";
-        }
-
-        function regresar(evento){
-            let componenete = evento.target;
-            componenete.style.background = "cyan";
-        }
+        document.getElementById("nombre").addEventListener("focus", (evento)=>{
+            evento.target.style.background="green";
+        });
+        document.getElementById("nombre").addEventListener("blur", (evento) =>{
+            evento.target.style.background="red";
+        });
     </script>
 </body>
 </html>
