@@ -7,12 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 onclick="cambiartexto(this)">Manejo del DOM</h1>
+    <h1 id="titulo">Manejo del DOM</h1>
     <br>
+    <div id="mostrar"></div>
     <script>
+        document.getElementById("titulo").onclick = cambiartexto;
+
         function cambiartexto(titulo){
-            
-            titulo.innerHTML="Hola Mundo";
+
+            document.getElementById("mostrar").innerHTML = "Nuevo texto";
         }
     </script>
 </body>
